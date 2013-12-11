@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hellodroid", "hellodroid\hellodroid.csproj", "{EFDB5470-2940-4E73-AA02-9849BE04DCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDB5470-2940-4E73-AA02-9849BE04DCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDB5470-2940-4E73-AA02-9849BE04DCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDB5470-2940-4E73-AA02-9849BE04DCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDB5470-2940-4E73-AA02-9849BE04DCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = hellodroid\hellodroid.csproj
+	EndGlobalSection
+EndGlobal

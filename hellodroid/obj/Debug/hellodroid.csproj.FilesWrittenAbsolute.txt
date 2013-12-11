@@ -1,0 +1,13 @@
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/MonoAndroid,Version=v4.3.AssemblyAttribute.cs
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/bin/Debug/hellodroid.dll.mdb
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/bin/Debug/hellodroid.dll
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/bin/Debug/hellodroid.hellodroid.apk
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/android/bin/hellodroid.hellodroid.apk
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/main.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/values/strings.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/icon.png
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/R.cs.flag
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/bin/Debug/hellodroid.hellodroid-Signed.apk
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/uploadflags.txt
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll.mdb
