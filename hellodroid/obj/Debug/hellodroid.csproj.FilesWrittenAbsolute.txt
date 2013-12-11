@@ -11,3 +11,4 @@
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/uploadflags.txt
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll.mdb
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/first_fragment.xml

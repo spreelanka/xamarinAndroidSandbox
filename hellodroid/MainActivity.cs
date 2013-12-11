@@ -18,15 +18,17 @@ namespace hellodroid
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			SetContentView (Resource.Layout.first_fragment);
+//			SetContentView (Resource.Layout.Main);
+//
+//			// Get our button from the layout resource,
+//			// and attach an event to it
+//			Button button = FindViewById<Button> (Resource.Id.myButton);
+//			
+//			button.Click += delegate {
+//				button.Text = string.Format ("{0} clicks!", count++);
+//			};
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
 		}
 	}
 }

@@ -61,7 +61,10 @@ namespace hellodroid
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int firstFragmentText = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int myButton = 2131034113;
 			
 			static Id()
 			{
@@ -77,7 +80,10 @@ namespace hellodroid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int first_fragment = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
