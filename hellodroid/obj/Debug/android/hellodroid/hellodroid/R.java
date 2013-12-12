@@ -16,8 +16,9 @@ public final class R {
     public static final class id {
         public static final int changeFragmentButton=0x7f050001;
         public static final int firstFragmentText=0x7f050000;
-        public static final int mainContentGroup=0x7f050002;
-        public static final int switchFragmentButton=0x7f050003;
+        public static final int mainContentGroup=0x7f050003;
+        public static final int scrollView1=0x7f050002;
+        public static final int switchFragmentButton=0x7f050004;
     }
     public static final class layout {
         public static final int first_fragment=0x7f030000;
