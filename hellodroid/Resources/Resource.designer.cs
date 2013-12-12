@@ -45,10 +45,13 @@ namespace hellodroid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Android_logo = 2130837504;
+			public const int android_crop = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int Android_logo = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
 			
 			static Drawable()
 			{
@@ -69,17 +72,23 @@ namespace hellodroid
 			// aapt resource value: 0x7f050000
 			public const int firstFragmentText = 2131034112;
 			
-			// aapt resource value: 0x7f050003
-			public const int imageView1 = 2131034115;
+			// aapt resource value: 0x7f050004
+			public const int imageView1 = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int mainContentGroup = 2131034117;
+			public const int imageView2 = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int mainContentGroup = 2131034119;
+			
+			// aapt resource value: 0x7f050003
+			public const int pagedScrollView1 = 2131034115;
 			
 			// aapt resource value: 0x7f050002
-			public const int scrollView1 = 2131034114;
+			public const int scrollViewContainer = 2131034114;
 			
-			// aapt resource value: 0x7f050004
-			public const int switchFragmentButton = 2131034116;
+			// aapt resource value: 0x7f050006
+			public const int switchFragmentButton = 2131034118;
 			
 			static Id()
 			{

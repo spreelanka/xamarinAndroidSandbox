@@ -4,32 +4,33 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <LinearLayout
+        android:id="@+id/scrollViewContainer"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="5">
-        <ScrollView
-            android:id="@+id/scrollView1"
+        <hellodroid.PagedScrollView
+            android:id="@+id/pagedScrollView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
-            <!--				<LinearLayout
-					android:orientation="vertical"
-		            android:layout_width="fill_parent"
-		            android:layout_height="fill_parent">
-				-->
                 <ImageView
                     android:id="@+id/imageView1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/icon"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/Android_crop"
                     android:scaleType="fitStart" />
-            <!--		        </LinearLayout>-->
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/Android_crop"
+                    android:scaleType="fitStart" />
             </LinearLayout>
-        </ScrollView>
+        </hellodroid.PagedScrollView>
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"

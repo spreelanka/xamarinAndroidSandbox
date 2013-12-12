@@ -3,19 +3,22 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="9"
-        android:id="@+id/mainContentGroup" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1">
-        <Button
-            android:id="@+id/switchFragmentButton"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="switch fragment" />
-    </LinearLayout>
+<!--				<LinearLayout
+					android:orientation="vertical"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent">
+				-->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/Android_crop"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/Android_crop"
+        android:scaleType="fitStart" />
+<!--		        </LinearLayout>-->
 </LinearLayout>

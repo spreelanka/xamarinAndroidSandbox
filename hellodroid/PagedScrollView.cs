@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace hellodroid
 {
-	public class PagedScrollView : ScrollView
+	public class PagedScrollView : ScrollView//, View.IOnTouchListener
 	{
 
 		public PagedScrollView (Context context) :
@@ -36,6 +36,27 @@ namespace hellodroid
 		void Initialize ()
 		{
 		}
+//		public override bool OnTouchEvent (MotionEvent e)
+//		{
+//			return base.OnTouchEvent (e);
+//		}
+//
+//		public bool OnTouch(View v,MotionEvent e){
+//			if (_gestureDetector.OnTouchEvent (e)) {
+//				Console.WriteLine ("touched");
+//				return true;
+//			} else if (e.Action == MotionEventActions.Up || e.Action == MotionEventActions.Cancel) {
+////				//int scrollX = getScrollX ();
+////				int featureWidth = v.getMeasuredWidth ();
+////				mActiveFeature = ((scrollX + (featureWidth / 2)) / featureWidth);
+////				int scrollTo = mActiveFeature * featureWidth;
+////				smoothScrollTo (scrollTo, 0);
+//				return true;
+//			} else {
+//				return false;
+//			}
+//
+//		}
 
 
 

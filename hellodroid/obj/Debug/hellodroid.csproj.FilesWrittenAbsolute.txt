@@ -15,3 +15,4 @@
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/second_fragment.xml
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/scrollviewcontents.xml
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/android_logo.png
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/android_crop.png

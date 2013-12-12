@@ -9,7 +9,7 @@ using Android.OS;
 namespace hellodroid
 {
 	[Activity (Label = "hellodroid", MainLauncher = true)]
-	public class MainActivity : Activity, View.IOnTouchListener
+	public class MainActivity : Activity//, View.IOnTouchListener
 	{
 		int count = 0;
 		string firstFragmentTag = "first_fragment";
@@ -61,24 +61,12 @@ namespace hellodroid
 				ft.Commit();
 //				button.Text = string.Format ("{0} clicks!", count++);
 			};
-		}
-
-		public bool OnTouch(View v,MotionEvent e){
-			if (_gestureDetector.OnTouchEvent (e)) {
-				Console.WriteLine ("touched");
-				return true;
-			} else if (e.Action == MotionEventActions.Up || e.Action == MotionEventActions.Cancel) {
-//				//int scrollX = getScrollX ();
-//				int featureWidth = v.getMeasuredWidth ();
-//				mActiveFeature = ((scrollX + (featureWidth / 2)) / featureWidth);
-//				int scrollTo = mActiveFeature * featureWidth;
-//				smoothScrollTo (scrollTo, 0);
-				return true;
-			} else {
-				return false;
-			}
+//			Context c =Context.GetObject ();
+//			PagedScrollView psv = new PagedScrollView (c.ApplicationContext);
 
 		}
+
+
 	}
 }
 

@@ -79,6 +79,7 @@
     <AndroidResource Include="Resources\layout\second_fragment.axml" />
     <AndroidResource Include="Resources\layout\scrollviewContents.axml" />
     <AndroidResource Include="Resources\drawable\Android_logo.png" />
+    <AndroidResource Include="Resources\drawable\android_crop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
