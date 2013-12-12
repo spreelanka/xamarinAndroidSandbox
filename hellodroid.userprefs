@@ -2,12 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="hellodroid/MainActivity.cs">
     <Files>
-      <File FileName="hellodroid/MainActivity.cs" Line="29" Column="6" />
+      <File FileName="hellodroid/MainActivity.cs" Line="14" Column="17" />
+      <File FileName="hellodroid/FirstFragment.cs" Line="1" Column="1" />
+      <File FileName="hellodroid/PagedScrollView.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/PagedScrollView.cs" line="45" column="44" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.hellodroid AndroidDeviceId-Debug="BH9010HZ06" />
+  <MonoDevelop.Ide.ItemProperties.hellodroid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="BH9010HZ06" />
 </Properties>

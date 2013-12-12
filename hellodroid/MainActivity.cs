@@ -9,13 +9,13 @@ using Android.OS;
 namespace hellodroid
 {
 	[Activity (Label = "hellodroid", MainLauncher = true)]
-	public class MainActivity : Activity//, View.IOnTouchListener
+	public class MainActivity : Activity, View.IOnTouchListener
 	{
 		int count = 0;
 		string firstFragmentTag = "first_fragment";
 		string secondFragmentTag= "second_fragment";
 
-		private GestureDetector _gestureDetector;
+
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -63,7 +63,23 @@ namespace hellodroid
 			};
 //			Context c =Context.GetObject ();
 //			PagedScrollView psv = new PagedScrollView (c.ApplicationContext);
+			//FindViewById<PagedScrollView> psv=
 
+		}
+		public bool OnTouch(View v,MotionEvent e){
+			Console.WriteLine ("hello");
+
+			Toast t = new Toast(v.Context);
+			 
+			t.SetText("hello");
+			t.Show();
+			return false;
+		}
+		public bool OnTouchEvent(MotionEvent e){
+			Console.WriteLine ("helloaaaa");
+
+
+			return false;
 		}
 
 
