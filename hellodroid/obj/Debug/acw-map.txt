@@ -1,2 +1,3 @@
 hellodroid.MainActivity;hellodroid.MainActivity
 hellodroid.FirstFragment;hellodroid.FirstFragment
+hellodroid.SecondFragment;hellodroid.SecondFragment

@@ -23,7 +23,6 @@ namespace hellodroid
 			View v = inflater.Inflate (Resource.Layout.first_fragment, container, false);
 			return v;
 
-
 		}
 	}
 }

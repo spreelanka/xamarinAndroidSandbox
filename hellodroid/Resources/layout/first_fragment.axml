@@ -6,6 +6,11 @@
     <TextView
         android:id="@+id/firstFragmentText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="here is some informative text" />
+    <Button
+        android:id="@+id/changeFragmentButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="click to change fragment" />
 </LinearLayout>
