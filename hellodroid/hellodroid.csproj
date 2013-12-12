@@ -64,6 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FirstFragment.cs" />
     <Compile Include="SecondFragment.cs" />
+    <Compile Include="PagedScrollView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -76,6 +77,8 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\layout\first_fragment.axml" />
     <AndroidResource Include="Resources\layout\second_fragment.axml" />
+    <AndroidResource Include="Resources\layout\scrollviewContents.axml" />
+    <AndroidResource Include="Resources\drawable\Android_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

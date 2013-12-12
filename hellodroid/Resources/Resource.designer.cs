@@ -45,7 +45,10 @@ namespace hellodroid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int Android_logo = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -67,7 +70,10 @@ namespace hellodroid
 			public const int firstFragmentText = 2131034112;
 			
 			// aapt resource value: 0x7f050003
-			public const int mainContentGroup = 2131034115;
+			public const int imageView1 = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int mainContentGroup = 2131034117;
 			
 			// aapt resource value: 0x7f050002
 			public const int scrollView1 = 2131034114;
@@ -95,7 +101,10 @@ namespace hellodroid
 			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int second_fragment = 2130903042;
+			public const int scrollviewContents = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int second_fragment = 2130903043;
 			
 			static Layout()
 			{

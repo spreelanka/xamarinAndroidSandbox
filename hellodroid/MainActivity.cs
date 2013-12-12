@@ -9,7 +9,7 @@ using Android.OS;
 namespace hellodroid
 {
 	[Activity (Label = "hellodroid", MainLauncher = true)]
-	public class MainActivity : Activity
+	public class MainActivity : Activity, View.IOnTouchListener
 	{
 		int count = 0;
 		string firstFragmentTag = "first_fragment";
@@ -23,14 +23,17 @@ namespace hellodroid
 
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			//SetContentView (Resource.Layout.Main);
+			//PagedScrollView psv = new PagedScrollView ();
 
-//			SetContentView (Resource.Layout.Main);
+//			SetContentView (new PagedScrollView()); 
+
+			SetContentView (Resource.Layout.Main);
 //
 //			// Get our button from the layout resource,
 //			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.switchFragmentButton);
-			
+
 			button.Click += delegate {
 				FragmentManager fm=FragmentManager;
 				FragmentTransaction ft =fm.BeginTransaction();
@@ -58,6 +61,22 @@ namespace hellodroid
 				ft.Commit();
 //				button.Text = string.Format ("{0} clicks!", count++);
 			};
+		}
+
+		public bool OnTouch(View v,MotionEvent e){
+			if (_gestureDetector.OnTouchEvent (e)) {
+				Console.WriteLine ("touched");
+				return true;
+			} else if (e.Action == MotionEventActions.Up || e.Action == MotionEventActions.Cancel) {
+//				//int scrollX = getScrollX ();
+//				int featureWidth = v.getMeasuredWidth ();
+//				mActiveFeature = ((scrollX + (featureWidth / 2)) / featureWidth);
+//				int scrollTo = mActiveFeature * featureWidth;
+//				smoothScrollTo (scrollTo, 0);
+				return true;
+			} else {
+				return false;
+			}
 
 		}
 	}

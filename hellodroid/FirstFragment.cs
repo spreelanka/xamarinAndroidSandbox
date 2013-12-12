@@ -22,7 +22,6 @@ namespace hellodroid
 			//if(container==null){return null;}
 			View v = inflater.Inflate (Resource.Layout.first_fragment, container, false);
 			return v;
-
 		}
 	}
 }

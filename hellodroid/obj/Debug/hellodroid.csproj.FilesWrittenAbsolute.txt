@@ -13,3 +13,5 @@
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll.mdb
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/first_fragment.xml
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/second_fragment.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/scrollviewcontents.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/android_logo.png
