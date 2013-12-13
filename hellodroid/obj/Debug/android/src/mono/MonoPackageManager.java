@@ -67,6 +67,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"hellodroid.dll",
+		"Mono.Android.Support.v4.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

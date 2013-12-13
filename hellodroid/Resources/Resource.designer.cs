@@ -72,41 +72,47 @@ namespace hellodroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int changeFragmentButton = 2131034114;
+			// aapt resource value: 0x7f050003
+			public const int changeFragmentButton = 2131034115;
 			
 			// aapt resource value: 0x7f050001
-			public const int firstFragmentText = 2131034113;
+			public const int countTextView = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int firstFragmentText = 2131034114;
 			
 			// aapt resource value: 0x7f050000
 			public const int imageBlueDroid = 2131034112;
 			
-			// aapt resource value: 0x7f050003
-			public const int imageGreenDroid = 2131034115;
-			
-			// aapt resource value: 0x7f050009
-			public const int imageRedDroid = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int imageView1 = 2131034122;
+			// aapt resource value: 0x7f050004
+			public const int imageGreenDroid = 2131034116;
 			
 			// aapt resource value: 0x7f05000b
-			public const int imageView2 = 2131034123;
+			public const int imageRedDroid = 2131034123;
 			
-			// aapt resource value: 0x7f050006
-			public const int infiniteScrollContainer = 2131034118;
+			// aapt resource value: 0x7f05000c
+			public const int imageView1 = 2131034124;
 			
-			// aapt resource value: 0x7f050008
-			public const int mainContentGroup = 2131034120;
-			
-			// aapt resource value: 0x7f050005
-			public const int pagedScrollView1 = 2131034117;
-			
-			// aapt resource value: 0x7f050004
-			public const int scrollViewContainer = 2131034116;
+			// aapt resource value: 0x7f05000d
+			public const int imageView2 = 2131034125;
 			
 			// aapt resource value: 0x7f050007
-			public const int switchFragmentButton = 2131034119;
+			public const int infiniteScrollContainer = 2131034119;
+			
+			// aapt resource value: 0x7f050009
+			public const int mainContentGroup = 2131034121;
+			
+			// aapt resource value: 0x7f050006
+			public const int pagedScrollView1 = 2131034118;
+			
+			// aapt resource value: 0x7f05000a
+			public const int pager = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int scrollViewContainer = 2131034117;
+			
+			// aapt resource value: 0x7f050008
+			public const int switchFragmentButton = 2131034120;
 			
 			static Id()
 			{
@@ -125,22 +131,31 @@ namespace hellodroid
 			public const int blueFragment = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int first_fragment = 2130903041;
+			public const int counterFragment = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int greenFragment = 2130903042;
+			public const int first_fragment = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int greenFragment = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int redFragment = 2130903044;
+			public const int Main = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int scrollviewContents = 2130903045;
+			public const int mainLayoutForViewPager = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int second_fragment = 2130903046;
+			public const int redFragment = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int scrollviewContents = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int second_fragment = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int viewpagerMain = 2130903049;
 			
 			static Layout()
 			{

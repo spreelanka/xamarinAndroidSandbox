@@ -5,3 +5,4 @@
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Mono.Security.dll
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.3/Mono.Android.Support.v4.dll

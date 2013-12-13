@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace hellodroid
 {
-	[Activity (Label = "hellodroid", MainLauncher = true)]
+	[Activity (Label = "hellodroid")]
 	public class MainActivity : Activity, View.IOnTouchListener,GestureDetector.IOnGestureListener
 	{
 		int count = 0;

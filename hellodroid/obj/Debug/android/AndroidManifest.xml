@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="hellodroid.hellodroid">
   <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="18" />
   <application android:label="hellodroid" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="hellodroid" android:name="hellodroid.MainActivity">
+    <activity android:label="hellodroid" android:name="hellodroid.MainActivity" />
+    <activity android:label="MainActivityForViewPager" android:name="hellodroid.MainActivityForViewPager">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
