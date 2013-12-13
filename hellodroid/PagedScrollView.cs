@@ -88,16 +88,30 @@ namespace hellodroid
 
 
 				int featureHeight = getFragmentHeight ();
-				double mActiveFeature;
+				int mActiveFeature;
+				FragmentManager fm=((Activity)Context).FragmentManager;
+				FragmentTransaction ft =fm.BeginTransaction();
+				int len=fragment_tags.ToArray ().Length;
 				if (startGestureY < ScrollY) {
-							mActiveFeature = ((ScrollY + (featureHeight*.9)) / featureHeight);
+					mActiveFeature = (int)((ScrollY + (featureHeight*.9)) / featureHeight);
+
+//					ft.Detach (fm.FindFragmentByTag (fragment_tags [(mActiveFeature-1)%len]));
+//					ft.Attach (fm.FindFragmentByTag (fragment_tags [(mActiveFeature-1)%len])); 
+//					ft.Add (Resource.Id.infiniteScrollContainer,new GenericFragment (Resource.Layout.blueFragment), "blueFragment");
 				} else {
-							mActiveFeature = ((ScrollY - (featureHeight *.1)) / featureHeight);
+					mActiveFeature = (int)((ScrollY - (featureHeight *.1)) / featureHeight);
 
 				}
-				int scrollTo = ((int)mActiveFeature) * featureHeight;
+				Android.Graphics.Rect rect=new Android.Graphics.Rect();
 
+				fm.FindFragmentByTag (fragment_tags [(mActiveFeature) % len]).View.GetLocalVisibleRect (rect);
+
+				int scrollTo = rect.Bottom;
 				SmoothScrollTo(0,scrollTo);
+//				ft.Commit ();
+
+
+
 				return true;
 			} else {
 				return false;
