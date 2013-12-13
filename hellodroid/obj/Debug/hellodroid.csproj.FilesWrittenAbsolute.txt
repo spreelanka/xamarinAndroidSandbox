@@ -16,3 +16,8 @@
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/uploadflags.txt
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll
 /Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/hellodroid.dll.mdb
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/android_crop_blue.png
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/drawable/android_crop_red.png
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/bluefragment.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/redfragment.xml
+/Users/neilhudson/work/bluetubeinc/training/hellodroid/hellodroid/obj/Debug/res/layout/greenfragment.xml

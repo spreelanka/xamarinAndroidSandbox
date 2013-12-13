@@ -15,9 +15,13 @@ namespace hellodroid
 	public class PagedScrollView : ScrollView, View.IOnTouchListener,GestureDetector.IOnGestureListener
 	{
 		private GestureDetector _gestureDetector;
+		private int startGestureY;
+		private List<string> fragment_tags=new List<string>(); 
+		private Context _context;
 		public PagedScrollView (Context context) :
 			base (context)
 		{
+			_context = context;
 			Initialize ();
 		}
 
@@ -38,12 +42,35 @@ namespace hellodroid
 			Console.WriteLine ("something");
 			this.SetOnTouchListener (this);
 			_gestureDetector = new GestureDetector (this);
+
+			FragmentManager fm=((Activity)Context).FragmentManager;
+			FragmentTransaction ft =fm.BeginTransaction();
+			ft.Add (Resource.Id.infiniteScrollContainer,new GenericFragment (Resource.Layout.blueFragment), "blueFragment");
+			ft.Add (Resource.Id.infiniteScrollContainer,new GenericFragment (Resource.Layout.greenFragment), "greenFragment");
+			ft.Add (Resource.Id.infiniteScrollContainer,new GenericFragment (Resource.Layout.redFragment), "redFragment");
+			ft.Commit ();
+			fragment_tags.Add ("blueFragment");
+			fragment_tags.Add ("greenFragment");
+			fragment_tags.Add ("redFragment");
+			//ScrollY = getFragmentHeight ();
 		}
+
+
 //		public override bool OnTouchEvent (MotionEvent e)
 //		{
 //			return base.OnTouchEvent (e);
 //		}
 //
+		private int getFragmentHeight(){
+			Android.Graphics.Rect rect=new Android.Graphics.Rect();
+			GetLocalVisibleRect (rect);
+
+			int featureHeight = rect.Height();
+			return featureHeight;
+		}
+
+
+
 		//touchlistener interface
 		public bool OnTouch(View v,MotionEvent e){
 			if (_gestureDetector.OnTouchEvent (e)) {
@@ -58,11 +85,19 @@ namespace hellodroid
 
 				return true;
 			} else if (e.Action == MotionEventActions.Up || e.Action == MotionEventActions.Cancel) {
-//				//int scrollX = getScrollX ();
-//				int featureWidth = v.getMeasuredWidth ();
-//				mActiveFeature = ((scrollX + (featureWidth / 2)) / featureWidth);
-//				int scrollTo = mActiveFeature * featureWidth;
-//				smoothScrollTo (scrollTo, 0);
+
+
+				int featureHeight = getFragmentHeight ();
+				double mActiveFeature;
+				if (startGestureY < ScrollY) {
+							mActiveFeature = ((ScrollY + (featureHeight*.9)) / featureHeight);
+				} else {
+							mActiveFeature = ((ScrollY - (featureHeight *.1)) / featureHeight);
+
+				}
+				int scrollTo = ((int)mActiveFeature) * featureHeight;
+
+				SmoothScrollTo(0,scrollTo);
 				return true;
 			} else {
 				return false;
@@ -72,6 +107,7 @@ namespace hellodroid
 		//gesturelistener interface
 		public bool OnDown(MotionEvent e)
 		{
+			startGestureY =ScrollY;
 			return false;
 		}
 		public bool OnFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)

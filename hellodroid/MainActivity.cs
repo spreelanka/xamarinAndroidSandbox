@@ -9,7 +9,7 @@ using Android.OS;
 namespace hellodroid
 {
 	[Activity (Label = "hellodroid", MainLauncher = true)]
-	public class MainActivity : Activity, View.IOnTouchListener
+	public class MainActivity : Activity, View.IOnTouchListener,GestureDetector.IOnGestureListener
 	{
 		int count = 0;
 		string firstFragmentTag = "first_fragment";
@@ -66,6 +66,8 @@ namespace hellodroid
 			//FindViewById<PagedScrollView> psv=
 
 		}
+
+		//touchlistener 
 		public bool OnTouch(View v,MotionEvent e){
 			Console.WriteLine ("hello");
 
@@ -79,6 +81,25 @@ namespace hellodroid
 			Console.WriteLine ("helloaaaa");
 
 
+			return false;
+		}
+		//gesturelistener
+		public bool OnDown(MotionEvent e)
+		{
+			return false;
+		}
+		public bool OnFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
+		{
+			return false;
+		}
+		public void OnLongPress(MotionEvent e) {}
+		public bool OnScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY)
+		{
+			return false;
+		}
+		public void OnShowPress(MotionEvent e) {}
+		public bool OnSingleTapUp(MotionEvent e)
+		{
 			return false;
 		}
 
