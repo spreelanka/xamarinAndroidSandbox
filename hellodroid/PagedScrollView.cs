@@ -52,6 +52,9 @@ namespace hellodroid
 			fragment_tags.Add ("blueFragment");
 			fragment_tags.Add ("greenFragment");
 			fragment_tags.Add ("redFragment");
+
+
+
 			//ScrollY = getFragmentHeight ();
 		}
 
@@ -60,7 +63,12 @@ namespace hellodroid
 //		{
 //			return base.OnTouchEvent (e);
 //		}
-//
+//	
+		private Android.Graphics.Rect getVisibleRect(){
+			Android.Graphics.Rect rect=new Android.Graphics.Rect();
+			GetLocalVisibleRect (rect);
+			return rect;
+		}
 		private int getFragmentHeight(){
 			Android.Graphics.Rect rect=new Android.Graphics.Rect();
 			GetLocalVisibleRect (rect);
